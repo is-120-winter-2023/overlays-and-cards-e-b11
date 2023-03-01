@@ -177,12 +177,25 @@ a[href]:hover {
   text-decoration: none;
 }
 
-/* .hero {
+.hero {
   background-color: rgba(168, 168, 168, 0.896);
-} */
+  viewport-fit: 100%;
+}
+
+.hero h1 {
+  font-size: 10rem;
+  text-shadow: black 2px 2px 3px;
+  color: var(--bright-rose);
+}
 
 .hero-text {
-  position: relative;
-  inset: -300px 20px;
-  text-shadow: white 1px 1px;
+  position: absolute;
+  inset: 0;
+  text-align: center;
+}
+
+.subtitle {
+  text-shadow: white 1px 1px 1px;
+  font-size: 1.5rem;
+  /* margin-top: 15em; */
 }
