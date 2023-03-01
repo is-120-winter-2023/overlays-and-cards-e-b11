@@ -20,8 +20,19 @@
 </head>
 
 <body>
-  <h1>Breakfast</h1>
-  <p>This website will talk about different breakfasts and how delicious they are.</p>
+  <div class="hero">
+    <picture>
+      <source media="(min-width: 801px)" srcset="images/hero-breakfast-2000px.jpg">
+      <source media="(min-width: 401px)" srcset="images/hero-breakfast-800px.jpg">
+      <source media="(max-width: 400px)" srcset="images/hero-breakfast-400px.jpg">
+      <img src="images/hero-breakfast-800px.jpg"
+        alt="Table set with with plates of waffles, toast, orange juice, and hot cocoa.">
+    </picture>
+    <div class="hero-text">
+      <h1>Breakfast</h1>
+      <p>This website will talk about different breakfasts and how delicious they are.</p>
+    </div>
+  </div>
 
   <header>
     <nav>
@@ -32,13 +43,7 @@
       </ul>
     </nav>
   </header>
-  <picture>
-    <source media="(min-width: 801px)" srcset="images/hero-breakfast-2000px.jpg">
-    <source media="(min-width: 401px)" srcset="images/hero-breakfast-800px.jpg">
-    <source media="(max-width: 400px)" srcset="images/hero-breakfast-400px.jpg">
-    <img src="images/hero-breakfast-800px.jpg"
-      alt="Table set with with plates of waffles, toast, orange juice, and hot cocoa.">
-  </picture>
+
   <main>
     <svg>
       <use href="#menu" />

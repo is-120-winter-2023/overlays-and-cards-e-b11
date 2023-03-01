@@ -176,3 +176,13 @@ a[href]:hover {
   background-color: var(--soft-magenta);
   text-decoration: none;
 }
+
+/* .hero {
+  background-color: rgba(168, 168, 168, 0.896);
+} */
+
+.hero-text {
+  position: relative;
+  inset: -300px 20px;
+  text-shadow: white 1px 1px;
+}
