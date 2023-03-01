@@ -200,7 +200,7 @@ a[href]:hover {
 
 .hero::before {
   content: "";
-  background-color: #0909093b;
+  background-image: linear-gradient(to top, #000, transparent 50%);
   display: block;
   position: absolute;
   top: 0;
