@@ -6,5 +6,6 @@
     "htmlproofer",
     "srcset",
     "viewports"
-  ]
+  ],
+  "cSpell.ignoreWords": ["Comeau's"]
 }
