@@ -148,7 +148,7 @@ aside {
   margin-left: 1em;
 }
 
-footer p {
+footer {
   background-color: var(--indigo);
   color: var(--sandy);
   padding: 3rem 1rem 6rem;
