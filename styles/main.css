@@ -199,7 +199,8 @@ a.button:hover {
 }
 
 .hero p {
-  text-shadow: white 1px 1px 1px;
+  color: white;
+  text-shadow: black 1px 1px 2px;
   font-size: clamp(0.5rem, 1vw + 0.75rem, 4rem);
 }
 
@@ -231,7 +232,7 @@ a.button:hover {
 
 .card {
   flex: 1 1 0;
-  padding: 0.25em;
+  padding: 0.3em;
   transition: background-color 300ms ease;
 }
 
