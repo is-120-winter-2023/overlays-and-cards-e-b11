@@ -230,6 +230,7 @@ a.button:hover {
   display: flex;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .card {
